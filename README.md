@@ -1,29 +1,47 @@
-# Coursework Advanced NLP
+# Advanced Natural Language Processing (ANLP) Assignment
 
-This repository contains the code and resources for the **Coursework in Advanced Natural Language Processing (ANLP)**.
+This repository contains coursework for the Advanced NLP assignment, which focuses on using transformer-based models to classify and analyze text data. The assignment works with a propaganda detection dataset in `.tsv` format.
+
+---
 
 ## 📁 Contents
-- Notebooks and scripts for ANLP tasks
-- Supporting data and results
-- Documentation and instructions
 
-## 🚀 Getting Started
+- `ANLP Code.ipynb` — Main notebook implementing the model pipeline
+- `propaganda_train.tsv`, `propaganda_val.tsv` — Dataset files
+- `ANLP Report.pdf` — Project report detailing methodology and results
+- `ANLP Code HTML.html` — Rendered version of the notebook (for viewing)
 
-### Prerequisites
-Make sure you have Python and pip installed. Recommended to use a virtual environment.
+---
+
+## 🧠 Features
+
+- Text preprocessing and tokenization
+- Transformer-based modeling (e.g., BERT or RoBERTa)
+- Training and fine-tuning on propaganda detection data
+- Evaluation using precision, recall, and F1-score
+- Visualization of performance metrics
+- Input and output handling via `.tsv` files
+
+---
+
+## 🛠️ Requirements
+
+- Python 3.8+
+- Libraries:
+  - `numpy`
+  - `pandas`
+  - `scikit-learn`
+  - `transformers` (HuggingFace)
+  - `torch`
+  - `matplotlib`
+  - `seaborn` (optional)
+
+---
+
+## ⚙️ Setup Instructions
+
+Set up a virtual environment (optional but recommended):
 
 ```bash
-pip install -r requirements.txt
-```
-
-### Running
-Instructions on how to run the main scripts or notebooks go here.
-
-## 🧠 Topics Covered
-- NLP preprocessing
-- Transformer models
-- Sequence labeling
-- Evaluation metrics
-
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
